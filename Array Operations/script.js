@@ -49,5 +49,4 @@ como entrada devuelva el último elemento.
 */
 
 const last = ([...nums]) => nums[nums.length - 1];
-
 console.log("Apartado D, ", last([1, 2, 3]));
