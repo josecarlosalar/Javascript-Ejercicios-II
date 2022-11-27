@@ -2,7 +2,7 @@
 
 Dada la siguiente función:
 
-```jvascript
+```javascript
 function f(a, { b } = {}, c = 100) {
   console.log(arguments.length);
   console.log(a, a === arguments[0]);
