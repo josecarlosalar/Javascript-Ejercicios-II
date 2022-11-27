@@ -1,4 +1,4 @@
-class SlothMachine {
+class SlotMachine {
     constructor() {
         this.coin = 0;
     }
@@ -27,7 +27,7 @@ class SlothMachine {
     }
 }
 
-const machine1 = new SlothMachine();
+const machine1 = new SlotMachine();
 machine1.play(); // "Good luck next time!!"
 machine1.play(); // "Good luck next time!!"
 machine1.play(); // "Congratulations!!!. You won 3 coins!!"
