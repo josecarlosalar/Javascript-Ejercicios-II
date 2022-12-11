@@ -7,7 +7,7 @@ function f(a, { b } = {}, c = 100) {
     console.log(c, c === arguments[2]);
 }
 
-//f("JS rocks!", { b: "b" });
+f("JS rocks!", { b: "b" });
 
 /* 
 Las impresiones por consola de esta llamada son:
@@ -19,7 +19,7 @@ Las impresiones por consola de esta llamada son:
 */
 
 
-//f({ b: "b" });
+f({ b: "b" });
 
 /* 
 Las impresiones por consola de esta llamada son:
